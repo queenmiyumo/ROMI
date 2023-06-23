@@ -76,6 +76,7 @@ const searchProducts = async (product)=>{
             localStorage.setItem('cartItems', JSON.stringify(cartItems))
             cartNum.innerHTML = cartItems.length
         })
+   
 
         products.appendChild(container)
         })

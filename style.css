@@ -101,7 +101,6 @@ body{
     width: 80%;
     height: 95%;
 }
-
 .prodcategory{
     font-style: italic;
     margin: 3px;
@@ -130,7 +129,7 @@ body{
     display: none;
 }
 .categories{
-    font-size: 23px;
+    font-size: 19px;
 
 }
 
@@ -142,4 +141,22 @@ body{
 .products {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products img{
+    width: 400px;
+    
+}
+.cartButton{
+    background-color: aqua;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.products h2{
+    font-size: 40px;
+}
+.product h3{
+    font-size: 15px;
 }

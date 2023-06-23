@@ -11,11 +11,13 @@ products.forEach((product)=>{
         <div><img src="${product.image}"/></div>
         <h1>${product.title}</h1>
         <p>ksh=${product.price}</p>
-        <button class="deleteBtn">Delete</button>
+        <button class="deleteBtn">Delete</button> 
+       
     `   
-    const deleteBtn = item.querySelector('.deleteBtn')
-    deleteBtn.addEventListener('click', (e)=>{})
-    
    
+    const deleteBtn = item.querySelector('.deleteBtn')
+    deleteBtn.addEventListener('click', (e)=>{}
+    )
+    
     container.appendChild(item)
 })
